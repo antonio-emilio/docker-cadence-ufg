@@ -30,8 +30,10 @@ sudo docker run -it --name centos-cadence-ufg -e DISPLAY=$DISPLAY -v /tmp/.X11-u
 ## 5. If you want to run later again (after closing)!
 ```
 xhost +local:docker
+sudo docker start centos-cadence-ufg
 sudo docker exec -it centos-cadence-ufg /bin/bash
 ```
+
 ## 6. After opening the container...
 
 If you want to open the XCELIUM, you need to type this command:
