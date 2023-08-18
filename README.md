@@ -16,7 +16,7 @@ xhost +local:docker
 ## 2. Clone this repository and access the folder
 ```
 git clone https://github.com/antonio-emilio/docker-cadence-ufg.git
-cd dockerfiles/docker-cadence-ufg
+cd docker-cadence-ufg
 ```
 ## 3. Build your dockerfile image
 ```
